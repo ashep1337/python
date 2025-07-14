@@ -14,10 +14,7 @@ logo = r'''
 
 print(logo)
 other_bids = True
-bidders = {
-    "Name": [],
-    "Bid": []
-}
+bidders = {"Name": [], "Bid": []}
 
 while other_bids:
     name = input("What is your name? ")
@@ -36,5 +33,7 @@ while other_bids:
 top_bidder = max(bidders["Bid"])
 winner = bidders["Bid"].index(top_bidder)
 print("\n" * 20)
-print(f"The winner is {bidders["Name"][winner]} with a bid of {bidders["Bid"][winner]}")
-
+print(
+    f"The winner is {bidders['Name'][winner]} with \
+a bid of {bidders['Bid'][winner]}"
+)

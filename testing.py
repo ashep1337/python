@@ -1,11 +1,9 @@
-n = {
-    "hello": "world",
-    "goodbye": "everybody",
-    "animals": ["dog", "cat", "fox", ["a", "b", "c"]],
-}
-
-
-numbers = [167, 289, 334, 4, 5, 6]
-
-for n in numbers:
-    print(n)
+def is_leap_year(year):
+    if year % 4 == 0:
+        return True
+        if year % 100 == 0:
+            return True
+            if year % 400 == 0:
+                return True
+    else:
+        return False
