@@ -1,9 +1,7 @@
-def is_leap_year(year):
-    if year % 4 == 0:
-        return True
-        if year % 100 == 0:
-            return True
-            if year % 400 == 0:
-                return True
-    else:
-        return False
+n = [1, 2, 3, 4, 5, 6, 7]
+
+for i in range(len(n)):
+    if n[i] > 6 and sum(n) > 10:
+        n[i] = 1
+
+print(n)
