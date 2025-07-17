@@ -1,7 +1,11 @@
-n = [1, 2, 3, 4, 5, 6, 7]
+hello = 2
+world = 3
 
-for i in range(len(n)):
-    if n[i] > 6 and sum(n) > 10:
-        n[i] = 1
 
-print(n)
+def x(y, z):
+    y == 5
+    z == 10
+    return 4
+
+
+print(x(hello, world))
