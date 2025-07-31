@@ -18,10 +18,10 @@ ball = Ball()
 border = Border()
 score = Scoreboard()
 
-screen.onkey(l_paddle.paddle_up, key="Up")
-screen.onkey(l_paddle.paddle_down, key="Down")
-screen.onkey(r_paddle.paddle_up, key="w")
-screen.onkey(r_paddle.paddle_down, key="s")
+screen.onkey(r_paddle.paddle_up, key="Up")
+screen.onkey(r_paddle.paddle_down, key="Down")
+screen.onkey(l_paddle.paddle_up, key="w")
+screen.onkey(l_paddle.paddle_down, key="s")
 
 game = True
 
