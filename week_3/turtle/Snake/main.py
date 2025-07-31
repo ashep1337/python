@@ -36,7 +36,8 @@ while game:
     snake.border()
     if snake.border() is False:
         score.game_over()
-        game = False
+        snake.reset()
+        # game = False
     if snake.head.distance(food) < 20:
         food.refresh()
         snake.add_segment()
@@ -44,7 +45,7 @@ while game:
         score.update_score()
     for n in snake.segments[1:]:
         if snake.head.distance(n) < 10:
-            game = False
+            # game = False
             score.game_over()
-
+            snake.reset()
 screen.exitonclick()

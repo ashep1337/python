@@ -26,6 +26,13 @@ class Snake:
             self.segments[n].goto(x_cor, y_cor)
         self.segments[0].fd(20)
 
+    def reset(self):
+        for seg in self.segments:
+            seg.goto(2000, 2000)
+        self.segments.clear()
+        self.__init__()
+        self.head = self.segments[0]
+
     def border(self):
         if (
             self.segments[0].xcor() > 600
