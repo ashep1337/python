@@ -7,3 +7,5 @@ Week one has very basic examples of learning if/then, for and while loops, as we
 Week two has more beginner examples but starts to get more complex with functions and building up how to reason projects out with available logic.
 
 Week three gets more advanced with learning about OOP. Started working with classes, objects attributes, and methods. Also learning about importing modules and have started doing projects from start to finish with no provided templates.
+
+Week 4: We learned about virtual environments and setting them up within our system. We started working with reading and writing from files and then progressed to CSVs. Working on extracting, modifying, and aggregating data from them.
