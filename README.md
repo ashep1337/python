@@ -9,3 +9,5 @@ Week two has more beginner examples but starts to get more complex with function
 Week three gets more advanced with learning about OOP. Started working with classes, objects attributes, and methods. Also learning about importing modules and have started doing projects from start to finish with no provided templates.
 
 Week 4: We learned about virtual environments and setting them up within our system. We started working with reading and writing from files and then progressed to CSVs. Working on extracting, modifying, and aggregating data from them. Towards the end of the week we learned about Tkinter, kwargs, and args while making our first real GUI application.
+
+Week 5: We began making more complex GUIs with tkinter. First off we built a password manager. We then touched on JSON formatting and how to access JSON data with python. We added a functionality to our password manager to lookup passwords by querying our JSON file. As a capstone project halfway through the week we made a flashcard app.

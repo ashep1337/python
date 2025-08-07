@@ -2,7 +2,6 @@ import math
 import os
 import tkinter
 
-# ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
 GREEN = "#9bdeac"
@@ -13,7 +12,6 @@ SHORT = 300
 LONG = 1200
 reps = 0
 after_id = None
-# ---------------------------- TIMER RESET ------------------------------- #
 
 
 def reset_timer():
@@ -23,9 +21,6 @@ def reset_timer():
     text_timer.config(text="Timer")
     window.after_cancel(after_id)
     canvas.itemconfig(timer, text="00:00")
-
-
-# ---------------------------- TIMER MECHANISM ------------------------------- #
 
 
 def start_timer():
@@ -48,9 +43,6 @@ def start_timer():
         os.system('notify-send "Time to work" "Working for 25 minutes"')
 
 
-# ---------------------------- COUNTDOWN MECHANISM ------------------------------- #
-
-
 def timer_counter(count):
     global after_id
     count_min = math.floor(count / 60)
@@ -70,9 +62,6 @@ def timer_counter(count):
             current = text_checkmark.cget("text")
             if reps % 2:
                 text_checkmark.config(text=current + "✔")
-
-
-# ---------------------------- UI SETUP ------------------------------- #
 
 
 window = tkinter.Tk()
